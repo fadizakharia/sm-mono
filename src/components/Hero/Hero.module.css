@@ -1,0 +1,68 @@
+.heroContainer {
+  height: 100vh;
+  background-size: fill;
+  z-index: 1;
+  background-position: top;
+  clip-path: polygon(
+    0% 15%,
+    0 0,
+    15% 0%,
+    85% 0%,
+    100% 0,
+    100% 15%,
+    100% 85%,
+    85% 85%,
+    85% 100%,
+    15% 100%,
+    15% 85%,
+    0% 85%
+  );
+
+  /* clip-path: polygon(
+    0 0,
+    0 100%,
+    15% 100%,
+    10% 85%,
+    30% 100%,
+    50% 100%,
+    70% 100%,
+    90% 85%,
+    85% 100%,
+    100% 100%,
+    100% 0
+  ); */
+
+  position: relative;
+}
+.heroContentWrapper {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  /* width: 40%; */
+}
+.heroTitle {
+  font-family: "RocknRoll";
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 20px;
+}
+.heroDescription {
+  font-family: "Spartan";
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: larger;
+  color: #ffffffaa;
+}
+.btnCTA {
+  left: 50%;
+  transform: translate(-50%);
+  width: 175px;
+
+  background-color: #001529;
+  border: none;
+  margin-top: 4rem;
+}

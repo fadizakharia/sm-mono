@@ -1,0 +1,9 @@
+.footerWrapper {
+  background-color: rgb(0, 0, 0);
+  /* z-index: 1; */
+  padding: 10px;
+}
+.footerText {
+  /* color: rgba(0, 0, 0, 0.5); */
+  font-size: small;
+}
